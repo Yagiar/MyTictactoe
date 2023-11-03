@@ -22,11 +22,11 @@ An alternative representation would be to use an array, however, these are not y
 ### Code Overview
 The code defines two main structs: Row and Board, to represent a row and the game board, respectively. It also includes functions to create a new game board, check for a win, and make a move.
 
-struct `Row`: Represents a row in the Tic Tac Toe board, with each cell containing a value (0 for empty, 1 for player 1, and 2 for player 2).
-struct `Board`: Represents the game board, consisting of three rows.
-`new()`: Returns an empty game board.
-`check_for_win(b: Board, p: u8)`: Checks if a player (p) has won on the given board (b).
-`make_move(player: u8, row: u8, col: u8, board: Board)`: Makes a move for a player on the board and returns the updated board and the winner (0 for no winner, 1 for player 1, 2 for player 2).
+struct `Row`: Represents a row in the Tic Tac Toe board, with each cell containing a value (0 for empty, 1 for player 1, and 2 for player 2).<br>
+struct `Board`: Represents the game board, consisting of three rows.<br>
+`new()`: Returns an empty game board.<br>
+`check_for_win(b: Board, p: u8)`: Checks if a player (p) has won on the given board (b).<br>
+`make_move(player: u8, row: u8, col: u8, board: Board)`: Makes a move for a player on the board and returns the updated board and the winner (0 for no winner, 1 for player 1, 2 for player 2).<br>
 
 ## Running the Program
 
