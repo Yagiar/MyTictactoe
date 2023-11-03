@@ -19,8 +19,8 @@ Leo allows users to define composite data types with the `struct` keyword.
 The game board is represented by a struct called `Board`, which contains three `Row`s.
 An alternative representation would be to use an array, however, these are not yet supported in Leo.
 
-### Code Overview
-The code defines two main structs: Row and Board, to represent a row and the game board, respectively. It also includes functions to create a new game board, check for a win, and make a move.
+## Code Overview
+The code defines two main structs: `Row` and `Board`, to represent a row and the game board, respectively. It also includes functions to create a `new game board`, `check for a win`, `and make a move`.
 
 struct `Row`: Represents a row in the Tic Tac Toe board, with each cell containing a value (0 for empty, 1 for player 1, and 2 for player 2).<br>
 struct `Board`: Represents the game board, consisting of three rows.<br>
