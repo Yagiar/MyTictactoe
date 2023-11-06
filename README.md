@@ -4,20 +4,16 @@
 
 #### A standard game of Tic-Tac-Toe in Leo.
 
-⭕ ❕ ⭕ ❕ ❌
+|---|---|---|
+| ⭕ | ⭕ | ❌ |
+| ⭕ | ❌ | ⭕ |
+| ❌ | ❌ | ⭕ |
 
-➖ ➕ ➖ ➕ ➖
-
-⭕ ❕ ⁣❌ ❕ ⭕
-
-➖ ➕ ➖ ➕ ➖
-
-❌ ❕ ❌ ❕ ⭕
-
-## Representing State
-Leo allows users to define composite data types with the `struct` keyword. 
-The game board is represented by a struct called `Board`, which contains three `Row`s.
-An alternative representation would be to use an array, however, these are not yet supported in Leo.
+## Model representations
+Composite data types are possible to create by creating Leo with the `struct` keyword. 
+Leo allow users to define composite data types with Leo, and it is.
+The game board is represented by a `struct` called `Board`, which contains three `Rows`.
+Another alternative representation can be used as an array, however in Leo, they are not yet supporting this. 
 
 ## Code Overview
 The code defines two main structs: `Row` and `Board`, to represent a row and the game board, respectively. It also includes functions to create a `new game board`, `check for a win`, `and make a move`.
