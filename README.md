@@ -3,7 +3,7 @@
 [//]: # (<img alt="workshop/tictactoe" width="1412" src="../.resources/tictactoe.png">)
 
 #### A standard game of Tic-Tac-Toe in Leo.
-
+|   |   |   |
 |---|---|---|
 | ⭕ | ⭕ | ❌ |
 | ⭕ | ❌ | ⭕ |
@@ -55,6 +55,7 @@ leo execute <function_name> <input_1> <input_2> ...
 ```bash
 leo run new
 ```
+|   |   |   |
 |---|---|---|
 | 0 | 0 | 0 |
 | 0 | 0 | 0 |
@@ -64,6 +65,7 @@ leo run new
 ```bash
 leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
 ```
+|   |   |   |
 |---|---|---|
 | 1 | 0 | 0 |
 | 0 | 0 | 0 |
@@ -73,6 +75,7 @@ leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u
 ```bash
 leo run make_move 2u8 2u8 2u8 "{ r1: { c1: 1u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
 ```
+|   |   |   |
 |---|---|---|
 | 1 | 0 | 0 |
 | 0 | 2 | 0 |
